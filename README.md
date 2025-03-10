@@ -12,36 +12,35 @@ This project focuses on analyzing the DBLP database, which contains information 
   - **Author-Conference Graph** – Undirected graph linking authors to the conferences they published in.
 
 ## Analysis Questions
-**Analysis 0**
-Run the network characteristics package given to you on all the graphs you
-will be using for analysis and understand various characteristics. Especially, how they differ for each graph and their implications on the analysis you will be doing.
+The project focuses on answering the following key analytical questions using graph-based methodologies:
 
-**Analysis 1**
-You need to do all of your chosen analysis (0, 1, 2, and 3a or 3b) on the
-sample data and include them in the report along with your manually verified values
-(known as the ground truth).
+- **Analysis 0:**  
+  - Compute and compare the network characteristics for all graphs.
+  - Identify key metrics such as node count, edge count, degree distribution, density, and connected components.
 
-**Analysis 2**
-Find maximal groups of authors who are all mutually connected. Initially,
-you may want to use 3 or 4 and then go to maximal if the package allows you to do that. Otherwise, do it for 3, 4, and 5. This is for your entire data set.
+- **Analysis 1:**  
+  - Perform chosen analyses on sample data and validate results against manually verified ground truth.
 
-**Analysis 3**
-- Find 5 to 10 papers that are cited most from these two years from the
-paper citation graph
-- Find 5 to 10 authors who have published most papers in your data set
-irrespective of the conferences.
+- **Analysis 2:**  
+  - Find maximal groups of authors who are all mutually connected.
+  - Test different clique sizes (3, 4, and 5) to identify the largest possible connected subgroups.
 
+- **Analysis 3:**  
+  - Identify 5 to 10 papers with the highest citation counts over two years.
+  - Identify 5 to 10 authors with the most publications, independent of conferences.
 
 ## Results & Insights
 
-### Known-Authors Graph for sample data
+### **Known-Authors Graph for Sample Data**
 ![Known-Authors Graph](graphs/known_authors.jpg)
 
-### Paper Citation Graph for sample data
+### **Paper Citation Graph for Sample Data**
 ![Paper Citation Graph](graphs/paper_citation.jpg)
 
-### Author-Conference Graph for sample data
+### **Author-Conference Graph for Sample Data**
 ![Author-Conference Graph](graphs/author_conference.jpg)
+
+---
 
 ### **Known-Authors Graph**
 - **Total Unique Authors:** 77,723  
@@ -63,10 +62,12 @@ irrespective of the conferences.
 - **Maximum Degree (Most Published Author):** 2,574  
 - **Graph Density:** 3.24513449542644e-05  
 
+---
+
 ### **Key Findings**
-- The most connected author (Wei Wang) has co-authored with 105 different researchers.
-- The most cited paper in the dataset has 219 citations.
-- The most published authors have contributed to over 2,574 papers in the dataset.
+- The most connected author (**Wei Wang**) has co-authored with **105 different researchers**.
+- The most cited paper in the dataset has **219 citations**.
+- The most published authors have contributed to **2,574 papers** in the dataset.
 - The maximal author collaboration clique size is **31**, meaning there are groups of 31 authors who are all directly connected.
 - The paper with the highest out-degree has cited **23 other papers**.
 
@@ -74,16 +75,13 @@ irrespective of the conferences.
 - **Programming & Data Handling:** Python, Pandas, JSON  
 - **Graph Analysis:** NetworkX, Graph Theory, Centrality Measures  
 - **Data Visualization:** Matplotlib  
-- **Algorithms:** Depth-First Search (DFS) Degree Distribution  
+- **Algorithms:** Depth-First Search (DFS), Degree Distribution  
 - **Big Data Processing:** Handling large datasets efficiently  
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ## Data Source
 The DBLP dataset used in this project is provided by the dblp computer science bibliography. For more information, visit their [official website](https://dblp.org/).
+
 By leveraging graph theory and network analysis, we identified key research trends, influential authors, and impactful papers within the DBLP dataset. These insights can be used for further academic research, recommendation systems, and collaboration network studies.
-
----
-
