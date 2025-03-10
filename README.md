@@ -41,7 +41,7 @@ irrespective of the conferences.
 ![Paper Citation Graph](graphs/paper_citation.jpg)
 
 ### Author-Conference Graph for sample data
-![Author-Conference Graph](images/author_conference.jpg)
+![Author-Conference Graph](graphs/author_conference.jpg)
 
 ### **Known-Authors Graph**
 - **Total Unique Authors:** 77,723  
