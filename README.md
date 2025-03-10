@@ -34,6 +34,15 @@ irrespective of the conferences.
 
 ## Results & Insights
 
+### Known-Authors Graph for sample data
+![Known-Authors Graph](graphs/known_authors.jpg)
+
+### Paper Citation Graph for sample data
+![Paper Citation Graph](graphs/paper_citation.jpg)
+
+### Author-Conference Graph for sample data
+![Author-Conference Graph](images/author_conference.jpg)
+
 ### **Known-Authors Graph**
 - **Total Unique Authors:** 77,723  
 - **Total Edges (Connections):** 147,612  
